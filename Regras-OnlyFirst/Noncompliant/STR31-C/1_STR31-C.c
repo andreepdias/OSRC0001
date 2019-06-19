@@ -8,4 +8,3 @@ void copy(size_t n, char src[n], char dest[n])
     }
     dest[i] = '\0';
 }
-int main(){}

@@ -16,7 +16,7 @@ void handler(int signum)
     free(info);
     info = NULL;
 }
-int main(void)
+int test3(void)
 {
     if (signal(SIGINT, handler) == SIG_ERR)
     {
@@ -35,4 +35,3 @@ int main(void)
     }
     return 0;
 }
-int main(){}

@@ -5,7 +5,7 @@ enum
 {
     MAX_ALLOCATION = 1000
 };
-int main(int argc, const char *argv[])
+int test2(int argc, const char *argv[])
 {
     char *c_str = NULL;
     size_t len;
@@ -31,4 +31,3 @@ int main(int argc, const char *argv[])
     free(c_str);
     return 0;
 }
-int main() {}

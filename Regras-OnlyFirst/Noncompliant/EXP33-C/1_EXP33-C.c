@@ -2,7 +2,7 @@
 
 /* (82) Local, automatic variables assume unexpected values if they are read before they are initialized. */
 
-int main(){
+int test(){
 
     int a = -1;
     int b = 1;

@@ -24,4 +24,3 @@ void incorrect_password(const char *user)
     fprintf(stderr, msg);
     free(msg);
 }
-int main() {}

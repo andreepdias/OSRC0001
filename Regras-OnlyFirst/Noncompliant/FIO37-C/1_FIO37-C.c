@@ -4,7 +4,7 @@ enum
 {
     BUFFER_SIZE = 1024
 };
-void func(void)
+void func5(void)
 {
     char buf[BUFFER_SIZE];
     if (fgets(buf, sizeof(buf), stdin) == NULL)
@@ -13,4 +13,3 @@ void func(void)
     }
     buf[strlen(buf) - 1] = '\0';
 }
-int main() {}

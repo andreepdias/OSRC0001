@@ -1,5 +1,5 @@
 #include <stdio.h>
-void func(void)
+void func4(void)
 {
     int c;
     do
@@ -7,4 +7,3 @@ void func(void)
         c = getchar();
     } while (c != EOF);
 }
-int main() {}
