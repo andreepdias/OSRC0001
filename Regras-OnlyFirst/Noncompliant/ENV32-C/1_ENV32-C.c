@@ -6,7 +6,7 @@ void exit1(void)
 }
 void exit2(void)
 {
-    extern int some_condition;
+    int some_condition = 1;
     if (some_condition)
     {
         /* ... More cleanup code ... */

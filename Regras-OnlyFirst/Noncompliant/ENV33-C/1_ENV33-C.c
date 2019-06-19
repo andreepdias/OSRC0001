@@ -5,7 +5,7 @@ enum
 {
     BUFFERSIZE = 512
 };
-void func(const char *input)
+void func2(const char *input)
 {
     char cmdbuf[BUFFERSIZE];
     int len_wanted = snprintf(cmdbuf, BUFFERSIZE,
@@ -23,4 +23,3 @@ void func(const char *input)
         /* Handle error */
     }
 }
-int main(){}

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-void func(void)
+void func6(void)
 {
     for (unsigned int i = 0; i < 10; ++i)
     {
@@ -8,4 +8,3 @@ void func(void)
         printf("%ld, ", random());
     }
 }
-int main() {}

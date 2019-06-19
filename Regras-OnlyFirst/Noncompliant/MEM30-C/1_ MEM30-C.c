@@ -11,4 +11,3 @@ void free_list(struct node *head)
         free(p);
     }
 }
-int main(){}

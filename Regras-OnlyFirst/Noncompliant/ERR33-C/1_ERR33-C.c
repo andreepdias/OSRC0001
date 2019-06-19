@@ -11,4 +11,3 @@ int utf8_to_wcs(wchar_t *wcs, size_t n, const char *utf8,
     *size = mbstowcs(wcs, utf8, n);
     return 0;
 }
-int main(){}
