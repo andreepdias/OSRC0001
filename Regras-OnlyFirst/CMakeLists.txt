@@ -12,7 +12,6 @@ file(GLOB rules_src
 ### Create project
 add_executable(Regras ${rules_src})
 
-
 find_package(PNG REQUIRED)
 include_directories(${PNG_INCLUDE_DIR})
 target_link_libraries(Regras ${PNG_LIBRARY})
